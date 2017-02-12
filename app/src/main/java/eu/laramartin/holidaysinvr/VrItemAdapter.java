@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import com.google.vr.sdk.widgets.pano.VrPanoramaView;
 
-import java.io.DataInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 import butterknife.BindView;
@@ -65,17 +62,8 @@ public class VrItemAdapter extends RecyclerView.Adapter<VrItemAdapter.VrItemVH> 
         public void bind(VrItem vrItem) {
             textTitle.setText(vrItem.getTitle());
             textDescription.setText(vrItem.getDescription());
-            InputStream inStream = itemView.getResources().openRawResource(vrItem.getResId());
-            try {
-                byte[] jpegImageData = new byte[inStream.available()];
-                DataInputStream dataIs = new DataInputStream(inStream);
-                dataIs.readFully(jpegImageData);
-                VrPanoramaView.Options viewOptions = new VrPanoramaView.Options();
-                viewOptions.inputType = VrPanoramaView.Options.TYPE_STEREO_OVER_UNDER;
-                panoView.loadImageFromByteArray(jpegImageData, viewOptions);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            byte[] jpegImageData = VrUtils.getRawImageBytes(vrItem, itemView.getContext());
+            panoView.loadImageFromByteArray(jpegImageData, VrUtils.pictureOptions());
         }
     }
 }
