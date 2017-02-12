@@ -5,7 +5,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import eu.laramartin.holidaysinvr.R;
+import java.util.ArrayList;
+import java.util.List;
+
+import eu.laramartin.holidaysinvr.data.JapanList;
+import eu.laramartin.holidaysinvr.data.VrItem;
+import eu.laramartin.holidaysinvr.vr.VrType;
 
 /**
  * Created by lara on 12.02.17.
@@ -13,32 +18,33 @@ import eu.laramartin.holidaysinvr.R;
 public class FragmentAdapter extends FragmentPagerAdapter {
 
     private Context context;
+    private List<VrItem> list = new ArrayList<>();
 
     public FragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.context = context;
+        new JapanList().initList(list);
     }
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new JapanFragment();
-        } else {
-            return new KoreaFragment();
+        VrItem item = list.get(position);
+        switch (item.getType()) {
+            default:
+            case VrType.PICTURE:
+                return VrPicFragment.newInstance(item);
+            case VrType.VIDEO:
+                return VrVideoFragment.newInstance(item);
         }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return list.size();
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return context.getString(R.string.category_japan);
-        } else {
-            return context.getString(R.string.category_korea);
-        }
+        return context.getString(list.get(position).getTitle());
     }
 }

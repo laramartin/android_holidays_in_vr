@@ -1,5 +1,6 @@
 package eu.laramartin.holidaysinvr.data;
 
+import android.os.Parcelable;
 import android.support.annotation.RawRes;
 import android.support.annotation.StringRes;
 
@@ -10,7 +11,7 @@ import com.google.auto.value.AutoValue;
  */
 
 @AutoValue
-public abstract class VrItem {
+public abstract class VrItem implements Parcelable {
     @StringRes
     public abstract int getTitle();
 
@@ -32,6 +33,7 @@ public abstract class VrItem {
 
     @AutoValue.Builder
     public abstract static class Builder {
+
         public abstract Builder setTitle(int newTitle);
 
         public abstract Builder setType(int newType);

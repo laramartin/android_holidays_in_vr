@@ -31,6 +31,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile "com.google.auto.value:auto-value:1.2"
     annotationProcessor "com.google.auto.value:auto-value:1.2"
+    annotationProcessor 'com.ryanharter.auto.value:auto-value-parcel:0.2.5'
     compile 'com.google.vr:sdk-audio:1.20.0'
     compile 'com.google.vr:sdk-base:1.20.0'
     compile 'com.google.vr:sdk-common:1.20.0'
