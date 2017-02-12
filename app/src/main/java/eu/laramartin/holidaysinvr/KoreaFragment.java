@@ -1,9 +1,11 @@
 package eu.laramartin.holidaysinvr;
 
-import android.support.v4.app.Fragment;
-
 /**
  * Created by lara on 12.02.17.
  */
-public class KoreaFragment extends Fragment {
+public class KoreaFragment extends VrListFragment {
+    @Override
+    protected ListFactory getListFactory() {
+        return new KoreaList();
+    }
 }
