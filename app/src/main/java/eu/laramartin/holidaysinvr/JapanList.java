@@ -15,5 +15,11 @@ public class JapanList {
                 .setResId(R.raw.pic_360)
                 .setType(VrType.PICTURE)
                 .build());
+        list.add(VrItem.builder()
+                .setTitle(R.string.title_jp_asakusa)
+                .setDescription(R.string.description_jp_asakusa)
+                .setAssetName("20170119_190114.mp4")
+                .setType(VrType.VIDEO)
+                .build());
     }
 }

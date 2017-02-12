@@ -26,7 +26,8 @@ public abstract class VrItem {
 
     public static Builder builder() {
         return new AutoValue_VrItem.Builder()
-                .setAssetName("");
+                .setAssetName("")
+                .setResId(0);
     }
 
     @AutoValue.Builder
