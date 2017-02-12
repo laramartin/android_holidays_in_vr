@@ -17,7 +17,7 @@ import eu.laramartin.holidaysinvr.data.VrItem;
 public class VrUtils {
     private static VrPanoramaView.Options viewOptions = new VrPanoramaView.Options();
     public static VrPanoramaView.Options pictureOptions() {
-        viewOptions.inputType = VrPanoramaView.Options.TYPE_STEREO_OVER_UNDER;
+        viewOptions.inputType = VrPanoramaView.Options.TYPE_MONO;
         return viewOptions;
     }
 
