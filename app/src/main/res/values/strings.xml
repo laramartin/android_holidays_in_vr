@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Holidays In VR</string>
+    <string name="category_japan">Japón</string>
+    <string name="category_korea">Corea</string>
 </resources>
