@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import eu.laramartin.holidaysinvr.vrlist.FragmentAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

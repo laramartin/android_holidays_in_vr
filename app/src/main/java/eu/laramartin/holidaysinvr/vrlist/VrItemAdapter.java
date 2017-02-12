@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vrlist;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -16,6 +16,10 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import eu.laramartin.holidaysinvr.R;
+import eu.laramartin.holidaysinvr.data.VrItem;
+import eu.laramartin.holidaysinvr.vr.VrType;
+import eu.laramartin.holidaysinvr.vr.VrUtils;
 
 /**
  * Created by lara on 12.02.17.

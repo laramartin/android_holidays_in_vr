@@ -1,4 +1,7 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vrlist;
+
+import eu.laramartin.holidaysinvr.data.KoreaList;
+import eu.laramartin.holidaysinvr.data.ListFactory;
 
 /**
  * Created by lara on 12.02.17.

@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vrlist;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -15,6 +15,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import eu.laramartin.holidaysinvr.R;
+import eu.laramartin.holidaysinvr.data.ListFactory;
+import eu.laramartin.holidaysinvr.data.VrItem;
 
 /**
  * Created by lara on 12.02.17.

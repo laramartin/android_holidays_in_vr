@@ -1,9 +1,11 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vrlist;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import eu.laramartin.holidaysinvr.R;
 
 /**
  * Created by lara on 12.02.17.

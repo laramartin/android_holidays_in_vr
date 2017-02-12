@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.data;
 
 import java.util.List;
 

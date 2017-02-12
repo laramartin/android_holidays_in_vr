@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vr;
 
 /**
  * Created by lara on 12.02.17.

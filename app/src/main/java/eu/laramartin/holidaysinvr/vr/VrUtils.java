@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.vr;
 
 import android.content.Context;
 
@@ -7,6 +7,8 @@ import com.google.vr.sdk.widgets.pano.VrPanoramaView;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+
+import eu.laramartin.holidaysinvr.data.VrItem;
 
 /**
  * Created by lara on 12.02.17.

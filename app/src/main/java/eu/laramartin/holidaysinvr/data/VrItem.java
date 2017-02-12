@@ -1,4 +1,4 @@
-package eu.laramartin.holidaysinvr;
+package eu.laramartin.holidaysinvr.data;
 
 import android.support.annotation.RawRes;
 import android.support.annotation.StringRes;
