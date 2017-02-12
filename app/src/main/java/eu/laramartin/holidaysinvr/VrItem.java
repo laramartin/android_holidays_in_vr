@@ -25,9 +25,10 @@ public abstract class VrItem {
     public abstract String getAssetName();
 
     public static Builder builder() {
-        return new AutoValue_VrItem.Builder();
+        return new AutoValue_VrItem.Builder()
+                .setAssetName("");
     }
-    
+
     @AutoValue.Builder
     public abstract static class Builder {
         public abstract Builder setTitle(int newTitle);

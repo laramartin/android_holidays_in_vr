@@ -2,4 +2,6 @@
     <string name="app_name">Holidays In VR</string>
     <string name="category_japan">Japón</string>
     <string name="category_korea">Corea</string>
+    <string name="title_jp_asakusa">Incienso en Asakusa</string>
+    <string name="description_jp_asakusa">Antes de entrar en el templo hay que limpiar los malos espíritus con incienso.</string>
 </resources>
