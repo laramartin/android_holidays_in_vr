@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.vr.sdk.widgets.pano.VrPanoramaView;
+import com.google.vr.sdk.widgets.video.VrVideoEventListener;
 import com.google.vr.sdk.widgets.video.VrVideoView;
 
 import java.io.IOException;
@@ -98,6 +99,7 @@ public class VrItemAdapter extends RecyclerView.Adapter<VrItemAdapter.VrItemVH> 
 
         @BindView(R.id.video_view)
         VrVideoView videoView;
+        private boolean isPaused = false;
 
         public VrItemVideo(View itemView) {
             super(itemView);
@@ -107,6 +109,19 @@ public class VrItemAdapter extends RecyclerView.Adapter<VrItemAdapter.VrItemVH> 
         protected void loadPano(VrItem vrItem) {
             try {
                 videoView.loadVideoFromAsset(vrItem.getAssetName(), null);
+                videoView.pauseVideo();
+                isPaused = false;
+                videoView.setEventListener(new VrVideoEventListener() {
+                    @Override
+                    public void onClick() {
+                        if (isPaused) {
+                            videoView.playVideo();
+                        } else {
+                            videoView.pauseVideo();
+                        }
+                        isPaused = !isPaused;
+                    }
+                });
             } catch (IOException e) {
                 e.printStackTrace();
             }
