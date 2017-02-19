@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import eu.laramartin.holidaysinvr.data.JapanList;
+import eu.laramartin.holidaysinvr.data.ContentList;
 import eu.laramartin.holidaysinvr.data.VrItem;
 import eu.laramartin.holidaysinvr.vr.VrType;
 
@@ -23,7 +23,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public FragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.context = context;
-        new JapanList().initList(list);
+        new ContentList().initList(list);
     }
 
     @Override
