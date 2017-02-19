@@ -18,7 +18,7 @@
     <string name="description_jp_museo_casa">Casa japonesa en el museo Edo de Tokyo.</string>
     <string name="title_jp_potato">Super Potato, Tokyo</string>
     <string name="description_jp_potato">Super Potato es una cadena de tiendas de juegos antiguos, donde además puedes encontrar máquinas arcade y chuches japonesas.</string>
-    <string name="title_jp_curry">Comiendo curry en Tokyo</string>
+    <string name="title_jp_curry">Curry en Tokyo</string>
     <string name="description_jp_curry">Nuestra combinación favorita de curry japonés es curry, arroz, cerdo empanado, queso y pasas.</string>
     <string name="description_jp_futon">En el segundo piso de la casa donde nos alojamos había dos futones, donde dormimos.</string>
     <string name="title_jp_gundams">Gundams en Tokyo</string>
@@ -40,4 +40,8 @@
     <string name="description_jp_tren">Estación de tren en Tokyo.</string>
     <string name="title_jp_videojuegos">Videojuegos en Tokyo</string>
     <string name="description_jp_videojuegos">Nos pasamos horas mirando juegos japoneses que no podemos jugar... :(</string>
+    <string name="title_jp_sushi">Sushi en Tokyo</string>
+    <string name="description_jp_sushi">Restaurante de sushi con bandas rotatorias (Kaitenzushi).</string>
+    <string name="title_jp_taiko">Taiko en Tokyo</string>
+    <string name="description_jp_taiko">Jugando a nuestro juego de arcade favorito en Tokyo.</string>
 </resources>

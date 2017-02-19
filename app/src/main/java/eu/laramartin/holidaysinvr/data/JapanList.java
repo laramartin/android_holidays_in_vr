@@ -17,6 +17,12 @@ public class JapanList implements ListFactory {
                 .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
+                .setTitle(R.string.title_jp_airbnb)
+                .setDescription(R.string.description_jp_futon)
+                .setResId(R.drawable.futon)
+                .setType(VrType.PICTURE)
+                .build());
+        list.add(VrItem.builder()
                 .setTitle(R.string.title_jp_akihabara)
                 .setDescription(R.string.description_jp_akihabara)
                 .setResId(R.drawable.aki1)
@@ -89,8 +95,8 @@ public class JapanList implements ListFactory {
                 .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
-                .setTitle(R.string.title_jp_akihabara)
-                .setDescription(R.string.description_jp_akihabara)
+                .setTitle(R.string.title_jp_asakusa)
+                .setDescription(R.string.description_jp_asakusa_entrada_templo)
                 .setAssetName("asakusa.mp4")
                 .setType(VrType.VIDEO)
                 .build());
@@ -131,8 +137,8 @@ public class JapanList implements ListFactory {
                 .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
-                .setTitle(R.string.title_jp_akihabara)
-                .setDescription(R.string.description_jp_akihabara)
+                .setTitle(R.string.title_jp_potato)
+                .setDescription(R.string.description_jp_potato)
                 .setAssetName("arcade.mp4")
                 .setType(VrType.VIDEO)
                 .build());
@@ -149,16 +155,10 @@ public class JapanList implements ListFactory {
                 .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
-                .setTitle(R.string.title_jp_akihabara)
-                .setDescription(R.string.description_jp_akihabara)
+                .setTitle(R.string.title_jp_sushi)
+                .setDescription(R.string.description_jp_sushi)
                 .setAssetName("sushi.mp4")
                 .setType(VrType.VIDEO)
-                .build());
-        list.add(VrItem.builder()
-                .setTitle(R.string.title_jp_airbnb)
-                .setDescription(R.string.description_jp_futon)
-                .setResId(R.drawable.futon)
-                .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
                 .setTitle(R.string.title_jp_gundams)
@@ -257,8 +257,8 @@ public class JapanList implements ListFactory {
                 .setType(VrType.PICTURE)
                 .build());
         list.add(VrItem.builder()
-                .setTitle(R.string.title_jp_akihabara)
-                .setDescription(R.string.description_jp_akihabara)
+                .setTitle(R.string.title_jp_taiko)
+                .setDescription(R.string.description_jp_taiko)
                 .setAssetName("taiko.mp4")
                 .setType(VrType.VIDEO)
                 .build());
