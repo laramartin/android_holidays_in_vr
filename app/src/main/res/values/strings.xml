@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Holidays In VR</string>
-    <string name="category_japan">Japón</string>
-    <string name="category_korea">Corea</string>
     <string name="title_jp_asakusa">Templo de Asakusa, Tokyo</string>
-    <string name="description_jp_asakusa_incienso">Se cree que el incienso tiene un efecto curativo. Antes de entrar al templo, se debe purificar el cuerpo con un baño de humo.</string>
+    <string name="description_jp_asakusa_incienso">Antes de entrar al templo, se debe purificar el cuerpo con un baño de humo, porque se cree que el incienso tiene un efecto curativo.</string>
     <string name="title_jp_akihabara">Akihabara, Tokyo</string>
     <string name="description_jp_akihabara">Akihabara es un barrio de Tokyo donde se concentran tiendas de electrónica, videojuegos, manga y anime.</string>
     <string name="title_jp_airbnb">Airbnb en Tokyo</string>
@@ -44,4 +42,16 @@
     <string name="description_jp_sushi">Restaurante de sushi con bandas rotatorias (Kaitenzushi).</string>
     <string name="title_jp_taiko">Taiko en Tokyo</string>
     <string name="description_jp_taiko">Jugando a nuestro juego de arcade favorito en Tokyo.</string>
+    <string name="title_kr_hanok_village">Bukchon, Seoul</string>
+    <string name="description_kr_hanok_village">Barrio Bukchon en Seúl, donde se conservan casas de estilo tradicional creanas llamadas Hanok.</string>
+    <string name="title_kr_gwanghwamun_square">Gwanghwamun, Seoul</string>
+    <string name="description_kr_gwanghwamun_square">Plaza con una estatua del Rey Sejong el Grande, inventor del alfabeto coreano, y  una estatua de Yi Sun Sin, un general y hérode de guerra.</string>
+    <string name="title_kr_gyeongbokgung_palace">Palacio Gyeongbokgung, Seoul</string>
+    <string name="description_kr_gyeongbokgung_palace">Palacio Real Gyeongbokgung en Seúl.</string>
+    <string name="title_kr_hongdae">Hongdae, Seoul</string>
+    <string name="description_kr_hongdae">Barrio Hongdae en Seúl, caracterizado por sus abundantes tiendas, clubes y cafés.</string>
+    <string name="title_kr_namdaemun">Puerta Namdaemun, Seoul</string>
+    <string name="description_kr_namdaemun">Namdaemun era una de las ocho puertas que daban acceso al fuerte de Seúl.</string>
+    <string name="title_kr_restaurant">Restaurante en Seoul</string>
+    <string name="description_kr_restaurant">La cocina coreana se caracteriza por su variedad de guarniciones.</string>
 </resources>
